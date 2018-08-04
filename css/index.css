@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.wrapper {
+    width: 690px;
+    height: 460px;   
+    overflow: hidden;
+    margin: 100px auto;
+    border: 5px solid red;
+    box-sizing: border-box;
+    z-index: 3;
+    position:relative;
+}
+
+.wrapper ul {
+    position:absolute;
+    width: 100000px;
+    height:460px;
+    
+}
+
+.wrapper li {
+    width: 690px;
+    height: 460px;
+    float: left;
+    background-size:690px;
+}
+
+.dotBox {
+    position:absolute;
+    bottom:15px;
+    width:80px;
+    height:13px;
+    background-color:#FFEFD5;
+    left:50%;
+    border-radius: 30%;
+    margin-left:-30px;
+}
+.dotBox span {
+    width:8px;
+    height:8px;
+    border-radius: 50%;
+    color: #FFC1C1;
+    border: 2px solid black;
+    cursor: pointer;
+    margin:3px;
+    float:left;
+    left:5px;
+}
+.dotBox span:hover {
+    color:#00C5CD;
+}
+.prev {
+    position: absolute;
+    left: 13px;
+    top: 50%; 
+    width: 41px;
+    height: 69px;
+    background:url("../img/06.png") 82px;
+    cursor: pointer;
+}
+.prev:hover {
+    background:url("../img/06.png");
+}
+.next {
+    position: absolute;
+    right: 13px;
+    top: 50%;
+    width: 41px;
+    height: 69px;
+    background:url("../img/06.png") 41px;
+    cursor: pointer;
+}
+.next:hover {
+    background:url("../img/06.png") 123px;
+}
